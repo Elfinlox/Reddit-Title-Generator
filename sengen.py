@@ -30,4 +30,4 @@ def newPost(subreddit):
     markov = pd.read_pickle(subreddit)
     print(sentenceGenerator(markov))
 
-newPost('worldnews')
+newPost('')

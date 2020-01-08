@@ -26,4 +26,4 @@ def generateTextChunk(sub):
                 w.write(char.lower())
     os.remove(sub + 'test.txt')
 
-generateTextChunk('worldnews')
+generateTextChunk('')

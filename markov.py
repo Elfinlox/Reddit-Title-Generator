@@ -18,4 +18,4 @@ def markov(wordlist):
 def generateChain(subreddit):
     markov(generateWords(subreddit)).to_pickle(subreddit)
 
-generateChain('worldnews')
+generateChain('')
