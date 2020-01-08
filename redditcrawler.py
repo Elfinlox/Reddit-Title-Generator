@@ -1,11 +1,11 @@
 import praw
 import os
 
-reddit = praw.Reddit(client_id='d9IVTFu5zmWPSw',
-                     client_secret='AZSeKb3SGVE2B8JrJ70eJsg12X4',
-                     user_agent='Scrapper',
-                     username='Elfinlox',
-                     password='runiteoreno234')
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='',
+                     username='',
+                     password='')
 
 def generateTextChunk(sub):
     subreddit = reddit.subreddit(sub)
