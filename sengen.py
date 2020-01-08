@@ -30,4 +30,6 @@ def newPost(subreddit):
     markov = pd.read_pickle(subreddit)
     print(sentenceGenerator(markov))
 
-newPost('')
+if __name__ == "__main__":
+    subreddit = input("Enter subreddit name: ")
+    newPost(subreddit)

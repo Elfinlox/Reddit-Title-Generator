@@ -1,5 +1,8 @@
 import praw
 import os
+import random
+import pandas as pd 
+import markov
 
 reddit = praw.Reddit(client_id='',
                      client_secret='',
@@ -26,4 +29,7 @@ def generateTextChunk(sub):
                 w.write(char.lower())
     os.remove(sub + 'test.txt')
 
-generateTextChunk('')
+if __name__ == "__main__":
+    subreddit = input("Enter subreddit name: ")
+    generateTextChunk(subreddit)
+    markov.generateChain(subreddit)
