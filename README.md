@@ -9,7 +9,7 @@ Python program to generate (barely coherent!) titles using a Markov Chain implem
                      username='',
  password='')</code>
 <li>Run redditcrawler.py and enter the subreddit you want to generate the markov chain for that subreddit.</li>
-<li>Run sergen.py and enter a subreddit with an available markov chain.</li>
+<li>Run sengen.py and enter a subreddit with an available markov chain.</li>
 </ul><br>
 <h2> Sample </h2>
 <ul>
